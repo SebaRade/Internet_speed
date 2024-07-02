@@ -72,7 +72,7 @@ totest = [df5['m'], df5['e'], df5['a'], df5['n']]
 dunns = sp.posthoc_dunn(totest, p_adjust='bonferroni')
 print(dunns)
 
-# Display daytime results in a raincloud plot
+# Visualise daytime results
 series_1 = pd.Series(list(morning['Download']))
 series_2 = pd.Series(list(afternoon['Download']))
 series_3 = pd.Series(list(evening['Download']))
